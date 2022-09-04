@@ -1,0 +1,24 @@
+# .gitignore
+
+archetype-be
+.DS_Store
+lastupdate.tmp
+
+build
+analytics_log
+*.log
+
+conf/app.ini
+
+.idea/
+.vscode/
+
+vendor/*
+!manifest/archetype-be/
+
+run.sh
+
+coverage.out
+coverage.html
+profile.cov
+profile.tmp

@@ -1,0 +1,43 @@
+appname = archetype-be
+appsecret = secret
+environment = test
+httpport = 8080
+
+cronspec_eventupdater = 0-*/30-*-*-*-*
+dbmaster_host = localhost
+dbmaster_maxidle = 10
+dbmaster_maxopen = 50
+dbmaster_name = archetype_be
+dbmaster_pass = secret
+dbmaster_port = 3306
+dbmaster_user = secret
+dbslave_host = localhost
+dbslave_maxidle = 10
+dbslave_maxopen = 50
+dbslave_name = archetype_be
+dbslave_pass = secret
+dbslave_port = 3306
+dbslave_user = secret
+jwtsecret = secret
+log_debug = false
+redisidletimeoutsec = 10
+redismaster_addr = localhost:6379
+redis_maxactive = 1000
+redis_maxconnlifetimesec = 60
+redis_maxidle = 60
+redisslave_addr = localhost:6379
+redis_wait = true
+mail_senderaddress = user@domain.com
+mail_senderpassword = secret
+gcs_credentialfilename: google_auth.json
+gcs_bucketname: bucket-name
+gcs_downloadurlexpiryttlsec: 600
+gcs_uploadurlexpiryttlsec: 600
+gcs_readbatchsize: 1000
+pubsub_credentialfilename =  credential.json
+pubsub_projectid = non-prod
+pubsub_prefixid = local
+pubsub_publishasync = false
+pubsub_deadletterredelivery = 5
+pubsub_subscriptionthread = 1
+pubsub_subscriptionmsgcount = 600

@@ -1,0 +1,1 @@
+DELETE FROM `system_config` WHERE `name`=`event_updater`;
